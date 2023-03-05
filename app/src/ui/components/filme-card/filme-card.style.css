@@ -1,0 +1,81 @@
+.card-container {
+  border: black 3px solid;
+  width: 400px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px black;
+  cursor: pointer;
+  transition: ease;
+  position: relative;
+}
+
+.card-container:hover {
+  scale: 1.05;
+}
+
+.img-card-container {
+  max-height: 550px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  border-bottom: black 3px solid;
+}
+
+.img-card {
+  width: 100%;
+}
+
+.descricao-titulo-filme-card {
+  position: absolute;
+  height: 100%;
+  opacity: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px 20px;
+  gap: 30px;
+  transition: 0.5s;
+}
+
+.descricao-titulo-filme-card:hover {
+  opacity: 100%;
+  background: rgba(21, 21, 21, 0.7);
+}
+
+.titulo-filme-card {
+  color: beige;
+  font-size: 2em;
+}
+
+.descricao-filme-card {
+  color: beige;
+  font-size: 1em;
+}
+
+.card-footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 30px;
+}
+
+.card-color-OURO {
+  background-color: #b8860b;
+}
+
+.card-color-PRATA {
+  background-color: #7a8386;
+}
+
+.card-color-BRONZE {
+  background-color: #cd7f32;
+}
+
+.disponibilidado-filme-card {
+  width: 20px;
+  height: 20px;
+}

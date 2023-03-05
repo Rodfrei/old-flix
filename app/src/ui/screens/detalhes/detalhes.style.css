@@ -1,0 +1,112 @@
+.detalhes-container {
+  display: flex;
+  padding: 10px 40px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.detalhes-container-img {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 3px solid black;
+  padding: 25px;
+  border-radius: 5px;
+  background: rgb(54, 54, 54);
+  box-shadow: 0 0 10px 2px black;
+}
+
+.filme-img {
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid black;
+  box-shadow: 0 0 10px 2px black;
+}
+
+.locacao-container {
+  display: flex;
+  justify-content: center;
+}
+
+.detalhes-container-informacoes {
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 30px;
+  box-shadow: 0 0 10px 2px black;
+}
+
+.alugar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.gerenciar-filme-detalhes {
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: 80px;
+  align-items: center;
+}
+
+.botao-excluir {
+  width: 150px;
+  height: 50px;
+  border: 3px solid black;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.botao-excluir:hover {
+  box-shadow: 0 0 10px 2px black;
+}
+
+.image-excluir {
+  width: 40px;
+  height: 40px;
+}
+
+.detalhes-informacoes-titulo {
+  color: white;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 30px;
+}
+
+.detalhes-texto {
+  color: white;
+  font-size: 20px;
+}
+
+.detalhes-aluguel-titulo {
+  color: white;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 25px;
+}
+
+.detalhes-texto-input-resposavel {
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  background: none;
+  resize: none;
+  width: 100%;
+}
+
+.input-responcavel-container {
+  border-bottom: 2px white solid;
+  padding: 3px;
+  width: 100%;
+}
